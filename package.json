@@ -1,0 +1,24 @@
+{
+  "name": "algorithm-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitee.com:szlevinli/algorithm-typescript.git",
+  "author": "Levin Li <3259963@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
