@@ -7,12 +7,15 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "dev": "nodemon --exec \"ts-node\""
   },
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "@types/lodash": "^4.14.168",
     "@types/node": "^14.0.27",
+    "@types/prompt": "^1.1.0",
+    "@types/ramda": "^0.27.38",
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "@typescript-eslint/parser": "^3.8.0",
     "eslint": "^7.6.0",
@@ -23,6 +26,8 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "prompt": "^1.1.0",
+    "ramda": "^0.27.1"
   }
 }

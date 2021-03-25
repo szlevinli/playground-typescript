@@ -5,12 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch via Yarn",
+      "request": "launch",
+      "runtimeArgs": ["ts-node", "${relativeFile}"],
+      "runtimeExecutable": "yarn",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node"
+    },
+    {
       "type": "node",
       "name": "vscode-jest-tests",
       "request": "launch",
-      "args": [
-        "--runInBand"
-      ],
+      "args": ["--runInBand"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
